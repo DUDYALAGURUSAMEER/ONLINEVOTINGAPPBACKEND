@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/ONLINEVOTINGAPPBACKEND/static/css/main.672d7f99.css",
+    "main.js": "/ONLINEVOTINGAPPBACKEND/static/js/main.deec2351.js",
+    "static/js/496.87e9efcc.chunk.js": "/ONLINEVOTINGAPPBACKEND/static/js/496.87e9efcc.chunk.js",
+    "static/media/results.jpeg": "/ONLINEVOTINGAPPBACKEND/static/media/results.f428fafc7a40b1709888.jpeg",
+    "static/media/voterlist.jpg": "/ONLINEVOTINGAPPBACKEND/static/media/voterlist.7a6776dafdfe8dc4dc89.jpg",
+    "static/media/2.png": "/ONLINEVOTINGAPPBACKEND/static/media/2.b9b3ee6a8eef401bdafc.png",
+    "static/media/3.png": "/ONLINEVOTINGAPPBACKEND/static/media/3.86de50104dcba7853839.png",
+    "static/media/1.png": "/ONLINEVOTINGAPPBACKEND/static/media/1.c9ce629a0bc965704c93.png",
+    "static/media/vote.jpg": "/ONLINEVOTINGAPPBACKEND/static/media/vote.3eb2126f04480322e2d4.jpg",
+    "static/media/votedlist.jpg": "/ONLINEVOTINGAPPBACKEND/static/media/votedlist.16fbc558a89b5e211b1f.jpg",
+    "static/media/profile.jpg": "/ONLINEVOTINGAPPBACKEND/static/media/profile.9c85e8f51d385f8f9521.jpg",
+    "static/media/akhil.jpg": "/ONLINEVOTINGAPPBACKEND/static/media/akhil.7dd54e6d6cd0ab399894.jpg",
+    "static/media/partieslist.jpg": "/ONLINEVOTINGAPPBACKEND/static/media/partieslist.1fa6b8723a0940163ffa.jpg",
+    "static/media/akash.jpg": "/ONLINEVOTINGAPPBACKEND/static/media/akash.17a1a2d442b8807e6073.jpg",
+    "static/media/user.jpg": "/ONLINEVOTINGAPPBACKEND/static/media/user.1856c4bfacaadb24879e.jpg",
+    "static/media/dinesh.jpg": "/ONLINEVOTINGAPPBACKEND/static/media/dinesh.3c6ea5beac43080c43a7.jpg",
+    "static/media/admin.jpg": "/ONLINEVOTINGAPPBACKEND/static/media/admin.4a24883a381ef0f09632.jpg",
+    "static/media/guru.jpg": "/ONLINEVOTINGAPPBACKEND/static/media/guru.c546874210de7c577f79.jpg",
+    "index.html": "/ONLINEVOTINGAPPBACKEND/index.html",
+    "main.672d7f99.css.map": "/ONLINEVOTINGAPPBACKEND/static/css/main.672d7f99.css.map",
+    "main.deec2351.js.map": "/ONLINEVOTINGAPPBACKEND/static/js/main.deec2351.js.map",
+    "496.87e9efcc.chunk.js.map": "/ONLINEVOTINGAPPBACKEND/static/js/496.87e9efcc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.672d7f99.css",
+    "static/js/main.deec2351.js"
+  ]
+}
