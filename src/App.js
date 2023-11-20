@@ -8,7 +8,6 @@ import CreateParty from './components/CreateParty';
 import PartyList from './components/PartyList';
 import EditParty from './components/EditParty';
 import IsVotedList from './components/IsVotedList';
-// import Results from './components/Results';
 import AdminProfile from './components/AdminProfile';
 import LoginPage from './components/LoginPage';
 import UserHome from './components/UserHome';
