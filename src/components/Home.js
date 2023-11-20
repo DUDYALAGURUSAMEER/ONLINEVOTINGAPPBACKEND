@@ -27,7 +27,7 @@ function index() {
     </div>
           <div className="cardss ovcds">
           <div class="card shadow"  style={{width: "18rem"}} >
-                  <img class="card-img-top" src={three} alt="Card image cap"/>
+                  <img class="card-img-top" src={three} alt="Card  cap"/>
                   <div class="card-body">
                     <h5 class="card-title">"The ignorance of one voter in a democracy impairs the security of all." </h5>
                     <p class="card-text para">- John F. Kennedy</p>
@@ -36,7 +36,7 @@ function index() {
                   </div>
               </div>
               <div class="card shadow"  style={{width: "18rem"}} >
-                  <img class="card-img-top" src={one} alt="Card image cap"/>
+                  <img class="card-img-top" src={one} alt="Card  cap"/>
                   <div class="card-body">
                     <h5 class="card-title">"Voting is not only our right it is our power."  </h5>
                     <p class="card-text para"> - Loung Ung</p>
@@ -45,7 +45,7 @@ function index() {
                   </div>
               </div>
               <div class="card shadow"  style={{width: "18rem"}} >
-                  <img class="card-img-top" src={two} alt="Card image cap"/>
+                  <img class="card-img-top" src={two} alt="Card  cap"/>
                   <div class="card-body">
                     <h5 class="card-title">"The vote is the very most powerful nonviolent tool that we have."  </h5>
                     <p class="card-text para">- John Lewis</p>

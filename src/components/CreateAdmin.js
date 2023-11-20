@@ -25,7 +25,7 @@ function CreateAdmin() {
     };
   
     // Check if the username already exists
-    Axios.post("https://online-voting-backend-uc7g.onrender.com//AdminsRoute/AddAdmin", data_to_be_added)
+    Axios.post("https://online-voting-backend-uc7g.onrender.comAdminsRoute/AddAdmin", data_to_be_added)
       .then((res) => {
         if (res.status === 200) {
           alert("Record added successfully");

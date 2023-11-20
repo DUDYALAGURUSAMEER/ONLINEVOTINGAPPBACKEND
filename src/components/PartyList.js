@@ -10,7 +10,7 @@ function PartyList(props){
     var id = location.pathname.split("/").pop();
     const [arr,setArr] = useState([]);
     useEffect(()=>{
-        Axios.get("https://online-voting-backend-uc7g.onrender.com//PartiesRoute/")
+        Axios.get("https://online-voting-backend-uc7g.onrender.comPartiesRoute/")
         .then((res)=>{
             if(res.status===200) setArr(res.data);
             else Promise.reject();

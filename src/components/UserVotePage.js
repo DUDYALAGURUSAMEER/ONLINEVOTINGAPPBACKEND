@@ -7,7 +7,7 @@ function UserVotePage(props) {
   const [PartyVotedfor, setPartyVoterfor] = useState("");
 
   useEffect(() => {
-    const dataUrl = "https://online-voting-backend-uc7g.onrender.com//ISVotedRoute/";
+    const dataUrl = "https://online-voting-backend-uc7g.onrender.comISVotedRoute/";
     fetch(dataUrl)
       .then((response) => response.json())
       .then((jsonData) => {

@@ -5,7 +5,7 @@ function PartyListRow(props)
 {
     const {_id,PartyName,CandidateName,Symbol,Image} = props.obj; //Object destruction
     const handleClick = () =>{
-        Axios.delete("https://online-voting-backend-uc7g.onrender.com//PartiesRoute/delete-Party/" + _id )
+        Axios.delete("https://online-voting-backend-uc7g.onrender.comPartiesRoute/delete-Party/" + _id )
         .then((res)=>{
             if(res.status === 200){
                 alert("Record deleted successfully");

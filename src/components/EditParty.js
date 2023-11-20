@@ -11,7 +11,7 @@ function EditParty()
     const [newData,setNewData] = useState([]);
 
     useEffect(()=>{
-        Axios.get("https://online-voting-backend-uc7g.onrender.com//PartiesRoute/update-Party/"+id)
+        Axios.get("https://online-voting-backend-uc7g.onrender.comPartiesRoute/update-Party/"+id)
         .then((res)=>{
             if(res.status === 200){
                 const {PartyName,CandidateName,Symbol,Image} = res.data;
@@ -29,7 +29,7 @@ function EditParty()
 
     const handleSubmit = () => {
         const data = {PartyName:newData[0],CandidateName:newData[1],Symbol:newData[2],Image:newData[3]};
-        Axios.put("https://online-voting-backend-uc7g.onrender.com//PartiesRoute/update-Party/"+id,data)
+        Axios.put("https://online-voting-backend-uc7g.onrender.comPartiesRoute/update-Party/"+id,data)
         .then((res)=>{
             if(res.status === 200){
                 alert("Record updated successfully")

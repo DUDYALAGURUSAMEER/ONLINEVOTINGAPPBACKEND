@@ -10,7 +10,7 @@ function EditAdmin()
     const [initialValue, setInitialValue] = useState({name:"",username:"",phonenumber:"",email:"",address:"",password:""});
     const [newData,setNewData] = useState([]);
     useEffect(()=>{
-        Axios.get("https://online-voting-backend-uc7g.onrender.com//AdminsRoute/update-Admin/"+id)
+        Axios.get("https://online-voting-backend-uc7g.onrender.comAdminsRoute/update-Admin/"+id)
         .then((res)=>{
             if(res.status === 200){
                 const {name,username,phonenumber,email,address,password} = res.data;
@@ -28,7 +28,7 @@ function EditAdmin()
 
     const handleSubmit = () => {
         const data = {name:newData[0],username:newData[1],phonenumber:newData[2],email:newData[3],address:newData[4],password:newData[5]};
-        Axios.put("https://online-voting-backend-uc7g.onrender.com//AdminsRoute/update-Admin/"+id,data)
+        Axios.put("https://online-voting-backend-uc7g.onrender.comAdminsRoute/update-Admin/"+id,data)
         .then((res)=>{
             if(res.status === 200 && id === "6557101be0f629991186bd0f"){
                 alert("Record updated successfully")

@@ -5,7 +5,7 @@ function AdminListRow(props)
     const {_id,name,username,phonenumber,email,address,password} = props.obj; //Object destruction
    
     const handleClick = () =>{
-        Axios.delete("https://online-voting-backend-uc7g.onrender.com//AdminsRoute/delete-Admin/" + _id )
+        Axios.delete("https://online-voting-backend-uc7g.onrender.comAdminsRoute/delete-Admin/" + _id )
         .then((res)=>{
             if(res.status === 200){
                 alert("Record deleted successfully");

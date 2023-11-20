@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import './loginstyle.css'; // Import the CSS file
-import vote from '../images/vote.jpg'
-import { Link } from "react-router-dom";
 import Navbar from "./Navbar.js";
 import Foot from "./foot.js";
 import { useTypewriter ,Cursor } from 'react-simple-typewriter'
@@ -23,8 +21,8 @@ function LoginPage() {
 
 
   const handleLogin = () => {
-    const databaseUrl = "https://online-voting-backend-uc7g.onrender.com//AdminsRoute";
-    const votersUrl = "https://online-voting-backend-uc7g.onrender.com//VoterListRoute";
+    const databaseUrl = "https://online-voting-backend-uc7g.onrender.comAdminsRoute";
+    const votersUrl = "https://online-voting-backend-uc7g.onrender.comVoterListRoute";
 
     if (loginType === "admin") {
       fetch(databaseUrl)

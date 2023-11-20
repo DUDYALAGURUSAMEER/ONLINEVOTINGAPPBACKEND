@@ -10,7 +10,7 @@ function EditVoter()
     const [initialValue, setInitialValue] = useState({name:"",Id:"",PhoneNumber:"",Address:"",DateOfBirth:"",Gender:""});
     const [newData,setNewData] = useState([]);
     useEffect(()=>{
-        Axios.get("https://online-voting-backend-uc7g.onrender.com//VoterListRoute/update-Voter/"+id)
+        Axios.get("https://online-voting-backend-uc7g.onrender.comVoterListRoute/update-Voter/"+id)
         .then((res)=>{
             if(res.status === 200){
                 const {name,Id,PhoneNumber,Address,DateOfBirth,Gender} = res.data;
@@ -28,7 +28,7 @@ function EditVoter()
 
     const handleSubmit = () => {
         const data = {name:newData[0],Id:newData[1],PhoneNumber:newData[2],Address:newData[3],DateOfBirth:newData[4],Gender:newData[5]};
-        Axios.put("https://online-voting-backend-uc7g.onrender.com//VoterListRoute/update-Voter/"+id,data)
+        Axios.put("https://online-voting-backend-uc7g.onrender.comVoterListRoute/update-Voter/"+id,data)
         .then((res)=>{
             if(res.status === 200){
                 alert("Record updated successfully")

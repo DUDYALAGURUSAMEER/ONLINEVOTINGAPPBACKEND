@@ -6,7 +6,7 @@ import Foot from './foot'
 function IsVotedList(){
     const [arr,setArr] = useState([]);
     useEffect(()=>{
-        Axios.get("https://online-voting-backend-uc7g.onrender.com//ISVotedRoute/")
+        Axios.get("https://online-voting-backend-uc7g.onrender.comISVotedRoute/")
         .then((res)=>{
             if(res.status===200) setArr(res.data);
             else Promise.reject();

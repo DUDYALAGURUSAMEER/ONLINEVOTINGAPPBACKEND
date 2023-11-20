@@ -20,7 +20,6 @@ import About from './components/About';
 import Navbar from './components/Navbar';
 import Foot from './components/foot';
 import Home from './components/Home';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { UserResults,AdminsResult } from './components/AdminResults';
 function App() {
   return (
@@ -42,7 +41,6 @@ function App() {
             <Route path='/Admin/PartyList/:id' element={<PartyList/>}/>
             <Route path='/Admin/EditParty/:id' element={<EditParty/>}/>
             <Route path='/Admin/IsVotedList/:id' element={<IsVotedList/>}/>
-            {/* <Route path='/Admin/Results/:id' element={<Results/>}/> */}
             <Route path='/Admin/Results/:id' element={<AdminsResult/>}/>
             <Route path='/User/Results/:id' element={<UserResults/>}/>
             <Route path='/Admin/Profile/:id' element={<AdminProfile/>}/>
@@ -55,25 +53,3 @@ function App() {
 }
 
 export default App;
-
-// import LoginPage from './components/LoginPage';
-// // import AdminNavbarPage from './components/AdminNavbarPage';
-// // import { useState } from 'react';
-
-// // export default App;
-// function App() {
-//   // const [authenticated, setAuthenticated] = useState(false);
-
-//   // const handleLogin = () => {
-//   //   setAuthenticated(true)
-//   // };
-
-//   return (
-//     <div>
-//       <LoginPage />
-//       {/* <LoginPage onLogin={handleLogin}/> */}
-//     </div>
-//   );
-// }
-
-// export default App;

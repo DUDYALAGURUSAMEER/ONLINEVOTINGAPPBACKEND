@@ -4,7 +4,7 @@ function IsVotedListRow(props)
     const {_id,Id,PartyVoted} = props.obj; //Object destruction
     
     const handleClick = () =>{
-        Axios.delete("https://online-voting-backend-uc7g.onrender.com//ISVotedRoute/delete-isvoted/" + _id )
+        Axios.delete("https://online-voting-backend-uc7g.onrender.comISVotedRoute/delete-isvoted/" + _id )
         .then((res)=>{
             if(res.status === 200){
                 alert("Record deleted successfully");

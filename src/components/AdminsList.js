@@ -11,7 +11,7 @@ function AdminsList(){
     var id = location.pathname.split("/").pop();
     const [arr,setArr] = useState([]);
     useEffect(()=>{
-        Axios.get("https://online-voting-backend-uc7g.onrender.com//AdminsRoute/")
+        Axios.get("https://online-voting-backend-uc7g.onrender.comAdminsRoute/")
         .then((res)=>{
             if(res.status===200) setArr(res.data);
             else Promise.reject();

@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import vote from '../images/vote.jpg'
 import './userNav.css'
-import Foot from './foot'
 function UserNav(){
     const location = useLocation();
     var id = location.pathname.split("/").pop();

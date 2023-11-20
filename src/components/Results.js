@@ -23,7 +23,7 @@ export default function Results() {
       {
         label:"number of votes",
         data: [],
-        backgroundColor: "rgb(43,24,155)",
+        backgroundColor: "#ffd700",
       },
     ],
   });
@@ -35,14 +35,14 @@ export default function Results() {
       const partyVotes = {};
 
       try {
-        const response1 = await axios.get("https://online-voting-backend-uc7g.onrender.com//PartiesRoute");
+        const response1 = await axios.get("https://online-voting-backend-uc7g.onrender.comPartiesRoute");
         const jsonData1 = response1.data;
         jsonData1.forEach((item) => {
           const partyName = item.PartyName;
           partyVotes[partyName] = 0;
         });
 
-        const response2 = await axios.get("https://online-voting-backend-uc7g.onrender.com//ISVotedRoute");
+        const response2 = await axios.get("https://online-voting-backend-uc7g.onrender.comISVotedRoute");
         const jsonData2 = response2.data;
 
         jsonData2.forEach((item) => {
@@ -58,7 +58,7 @@ export default function Results() {
           datasets: [
             { label:"number of votes",
               data: votes,
-              backgroundColor: "rgb(43,24,155)",
+              backgroundColor: "#ffd700",
             },
           ],
         });

@@ -18,7 +18,7 @@ function UserHome() {
 
   useEffect(() => {
     if (id) {
-      fetch(`https://online-voting-backend-uc7g.onrender.com//VoterListRoute/get-voter/${id}`)
+      fetch(`https://online-voting-backend-uc7g.onrender.comVoterListRoute/get-voter/${id}`)
         .then((response) => response.json())
         .then((data) => {
           if (data) { 

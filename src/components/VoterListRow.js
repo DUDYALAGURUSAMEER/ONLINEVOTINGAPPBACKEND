@@ -5,7 +5,7 @@ function VoterListRow(props)
     const {_id,name,Id,PhoneNumber,Address,DateOfBirth,Gender} = props.obj; //Object destruction
    
     const handleClick = () =>{
-        Axios.delete("https://online-voting-backend-uc7g.onrender.com//VoterListRoute/delete-Voter/" + _id )
+        Axios.delete("https://online-voting-backend-uc7g.onrender.comVoterListRoute/delete-Voter/" + _id )
         .then((res)=>{
             if(res.status === 200){
                 alert("Record deleted successfully");

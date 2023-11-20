@@ -20,7 +20,7 @@ function AdminHome() {
 
   useEffect(() => {
     // Fetch voters count
-    axios.get("https://online-voting-backend-uc7g.onrender.com//VoterListRoute/Voters-count")
+    axios.get("https://online-voting-backend-uc7g.onrender.comVoterListRoute/Voters-count")
       .then((response) => {
         const count = response.data.count;
         setVotersCount(count);
@@ -30,7 +30,7 @@ function AdminHome() {
         console.error("Error fetching voters count:", error);
       });
 
-    axios.get("https://online-voting-backend-uc7g.onrender.com//ISVotedRoute/Isvoted-count")
+    axios.get("https://online-voting-backend-uc7g.onrender.comISVotedRoute/Isvoted-count")
       .then((response) => {
         const count = response.data.count;
         setisvotedCount(count);
@@ -41,7 +41,7 @@ function AdminHome() {
       });
 
     // Fetch parties count
-    axios.get("https://online-voting-backend-uc7g.onrender.com//PartiesRoute/Parties-count")
+    axios.get("https://online-voting-backend-uc7g.onrender.comPartiesRoute/Parties-count")
       .then((response) => {
         const count = response.data.count;
         setPartiesCount(count);

@@ -18,7 +18,7 @@ function CreateVoter(){
 
         //Checking Whether the Id is already Present in the Data
 
-        const url = 'https://online-voting-backend-uc7g.onrender.com//VoterListRoute';
+        const url = 'https://online-voting-backend-uc7g.onrender.comVoterListRoute';
         const idToCheck = data_to_be_added.Id; 
         if(!idToCheck.trim()){
             alert("Id must have Value")
@@ -34,7 +34,7 @@ function CreateVoter(){
             if (foundPerson) {
               alert(`ID ${idToCheck} is already present in the data.`);
             } else {
-                Axios.post("https://online-voting-backend-uc7g.onrender.com//VoterListRoute/AddVoter",data_to_be_added)
+                Axios.post("https://online-voting-backend-uc7g.onrender.comVoterListRoute/AddVoter",data_to_be_added)
                 .then((res)=>{
                     if(res.status===200) {
                         alert("record added successfully");

@@ -14,7 +14,7 @@ function CreateParty(){
         e.preventDefault();
         const data_to_be_added={PartyName:arr[0],CandidateName:arr[1],Symbol:arr[2],Image:arr[3]};
         
-                Axios.post("https://online-voting-backend-uc7g.onrender.com//PartiesRoute/AddParty",data_to_be_added)
+                Axios.post("https://online-voting-backend-uc7g.onrender.comPartiesRoute/AddParty",data_to_be_added)
                 .then((res)=>{
                     if(res.status===200) {
                         alert("record added successfully");

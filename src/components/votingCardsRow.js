@@ -12,7 +12,7 @@ function VotingCardsRow(props) {
     };
     console.log("partyName: "+partyName);
     axios
-      .post("https://online-voting-backend-uc7g.onrender.com//ISVotedRoute/AddIsvoted", data)
+      .post("https://online-voting-backend-uc7g.onrender.comISVotedRoute/AddIsvoted", data)
       .then((response) => {
         console.log("Vote submitted successfully!");
         window.location.reload();
